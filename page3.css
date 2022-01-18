@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.border {
+    width: auto;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+    padding: 1rem ;
+   }
+
+.luvda {
+position:absolute;
+width: 5%;
+    padding: 18px;
+    border-bottom: 4px solid rgb(211, 49, 125);
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 1rem auto;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 30px 9px #ff61241f;
+    border-top: 7px solid rgb(211, 49, 125);
+}
+.msg {
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+
+  text-decoration: none;
+  color: #008CBA;
+
+}
+
+/* .submitbtn {
+    background-color: rgb(211, 49, 125);
+    color: white;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+} */
+/* button:hover {
+    opacity: 0.8;
+} */
+/* .emailinput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} */
+
+span.psw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 20%;
+    font-size: small;
+}
+/*set styles for span and cancel button on small screens*/
+  
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+ 
+}
